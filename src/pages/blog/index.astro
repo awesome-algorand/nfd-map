@@ -1,0 +1,44 @@
+---
+import { getCollection } from "astro:content";
+
+import Layout from "@/layouts/Layout.astro";
+import { ENABLE_BLOG } from "@/consts";
+
+if (!ENABLE_BLOG) {
+  return Astro.redirect("/404");
+}
+
+const posts = (await getCollection("blog")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+
+// TODO: Beautify the render and figure out if this is necessary
+---
+
+<Layout>
+  <div class="relative h-full w-full rounded-3xl">
+    <section
+      class="absolute z-10 left-[50%] -translate-x-1/2 top-[50%] -translate-y-1/2 rounded-3xl"
+    >
+      <ul class="grid grid-cols-4 gap-5">
+        {
+          posts.map((post) => (
+            <li class="border-accent border-4 rounded-2xl">
+              <a href={`/blog/${post.id}/`}>
+                <img
+                  width={720}
+                  height={360}
+                  src={post.data.heroImage}
+                  alt=""
+                />
+                <h4 class="title">{post.data.title}</h4>
+                <p class="date">{post.data.pubDate}</p>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+    <div class="h-full w-full rounded-3xl bg-background opacity-86"></div>
+  </div>
+</Layout>

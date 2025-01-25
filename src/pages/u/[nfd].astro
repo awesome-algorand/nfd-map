@@ -1,0 +1,101 @@
+---
+// Library
+import { get, fetchOwned, type NfdRecord } from "@/lib/nfd";
+
+// UI Components
+import Layout from "@/layouts/Layout.astro";
+import { Card } from "@/components/Card";
+import Map from "@/components/Map.astro";
+
+// Import cache
+import geoJson from "@/db/geo.json";
+
+// Get Parameters
+const params = Astro.params;
+if (typeof params.nfd === "undefined") {
+  return Astro.redirect("/404");
+}
+
+// Fetch NFD
+const nfd = await get(params.nfd);
+const hasAddress = typeof nfd?.properties?.userDefined?.address === "string";
+
+// Abort on not found
+if (nfd.name === "notFound") {
+  return Astro.redirect("/404");
+}
+
+// Find the nfd in the cache
+// TODO: merge the previous state with the new state
+const features = geoJson.features.filter(
+  (feat) => feat.properties.name === nfd.name,
+);
+if (features.length === 0 && hasAddress) {
+  // TODO: handle fetching dynamically on cache misses
+  return Astro.redirect("/404");
+}
+
+// Map GeoJSON Feature
+const userGeoJson = { ...geoJson, features };
+// Owned NFDs
+const owned = (await fetchOwned(nfd.owner)).filter(
+  (o: NfdRecord) => o.appID !== nfd.appID,
+);
+
+// Metadata for the images
+const meta =
+  userGeoJson.features.length > 0 && userGeoJson.features[0].properties
+    ? userGeoJson.features[0].properties
+    : {
+        backgroundVerified: false,
+        backgroundUrl: "/nfd.png",
+        iconVerified: false,
+        iconUrl: "/nfd.png",
+      };
+---
+
+<Layout>
+  <div class="relative h-full w-full rounded-3xl">
+    <div
+      class="absolute z-10 left-[50%] -translate-x-1/2 top-[50%] -translate-y-1/2 rounded-3xl"
+    >
+      <Card
+        nfd={nfd}
+        owned={owned}
+        iconVerified={meta.iconVerified}
+        iconUrl={meta.iconUrl}
+        backgroundUrl={meta.backgroundUrl}
+        backgroundVerified={meta.backgroundVerified}
+        client:load
+      />
+    </div>
+    {
+      hasAddress ? (
+        <Map
+          class="h-full w-full rounded-3xl"
+          container={`${nfd.name}-map`}
+          minZoom={3}
+          zoom={6}
+        />
+      ) : (
+        <div
+          class:list={[
+            "bg-background",
+            "dark:bg-black",
+            "h-full",
+            "w-full",
+            "rounded-3xl",
+            "p-12",
+            "overflow-scroll",
+            "scrollbar",
+          ]}
+        >
+          <img src={meta.backgroundUrl} alt="Profile banner image" />
+        </div>
+      )
+    }
+  </div>
+</Layout>
+<script is:inline define:vars={{ userGeoJson }}>
+  window.__GEO_JSON__ = userGeoJson;
+</script>

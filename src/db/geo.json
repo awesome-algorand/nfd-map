@@ -1,0 +1,1397 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "prack.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2025-01-15T03:59:24Z",
+        "iconUrl": "https://images.nf.domains/avatar/c3705b57-0aa5-46f1-8c61-57867436dda8",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/6a1b48b5-1a82-4573-81de-9898898e096d",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.1331785, 19.4326296]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "satishccy.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2025-01-22T12:30:11Z",
+        "iconUrl": "https://images.nf.domains/avatar/fd342af9-9312-48d8-8e26-b8e68708a22b",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.4740613, 17.360589]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "cbdg.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2025-01-13T15:33:46Z",
+        "iconUrl": "https://images.nf.domains/avatar/656770f0-3689-41a0-b936-696b0237010f",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/999f95d9-7a83-4326-a04e-9764210e1676",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.1400561, 50.8214626]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "evertdiaz.directory.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-12-17T01:06:51Z",
+        "iconUrl": "https://images.nf.domains/avatar/ca8cd126-79c0-4ad4-9ec3-e5bdf84244b3",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.0458515, -6.8699697]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "urtho.directory.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-11-17T22:25:09Z",
+        "iconUrl": "https://ipfs.algonode.xyz/ipfs/QmQsi5NtajyNhExzLSp56Bsc7aVBjfEwzjherbzLWBv7A5",
+        "iconVerified": true,
+        "backgroundUrl": "https://images.nf.domains/banner/db807304-4b8e-4552-bbd5-f9fadf4be280",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.0067249, 52.2319581]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "akash.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2025-01-20T19:58:22Z",
+        "iconUrl": "https://images.nf.domains/avatar/e3df9abb-1ce0-4973-a775-0948afe60940",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.4740613, 17.360589]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "btc00.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-10-21T20:18:18Z",
+        "iconUrl": "https://images.nf.domains/avatar/9b2d111a-8a3f-4e07-8cf6-78eba90154bc",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/43ec374d-ec7d-4687-91a3-3bcdab320134",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [153.0203484303831, -27.47564805]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "skeller.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-11-29T13:00:36Z",
+        "iconUrl": "https://images.nf.domains/avatar/f4616eda-94c4-4213-95f0-7644b11175be",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.9382069, 39.5162401]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "bigemmy.blockcycle.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-11-15T17:00:19Z",
+        "iconUrl": "https://images.nf.domains/avatar/475e421f-3173-4bd8-b2a7-2dd6ea1d9521",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/f9f95544-1910-41fd-9ac6-7c235791f93a",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.2765753, 54.7023545]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "asxpi.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2025-01-10T16:55:59Z",
+        "iconUrl": "https://ipfs.algonode.xyz/ipfs/QmQjbd1JwHNZARhdcgAsbQt78c6NcbqbyZa8B72Eqy6Lcd",
+        "iconVerified": true,
+        "backgroundUrl": "https://images.nf.domains/banner/655f1bcc-7b24-42f1-9d57-f536ac5d2d9c",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.7453688, 59.4372155]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "chimdee.blockcycle.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-05-19T13:59:09Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.9999721, 9.6000359]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "cabal.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-08-21T14:48:11Z",
+        "iconUrl": "https://images.nf.domains/avatar/ea7bbd08-9ce3-40c1-bdb7-6aeb5609b0ea",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/5457b9cd-1138-45e2-b1b5-64d433eb4a96",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.8998073587480795, 51.840894]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "afrospace.frogang.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-04-08T03:41:23Z",
+        "iconUrl": "https://ipfs.algonode.xyz/ipfs/bafybeihbizlm6q6ze6vpz6lwyrmdgnzf3ul4v5fvfcaqtuk3srgyjs6a4q",
+        "iconVerified": true,
+        "backgroundUrl": "https://ipfs.algonode.xyz/ipfs/bafybeidozxehnbr7azgqvnirakzybwpolul33d4kucexmu6dk7p7ag7pi4",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.000977, 50.000678]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "realtrumpcoin.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-04-07T14:57:13Z",
+        "iconUrl": "https://ipfs.algonode.xyz/ipfs/bafkreihkcsq62cn7lw4jasucz4zdf3i7r3lelqyp5rhhs42v5qiy3m3df4",
+        "iconVerified": true,
+        "backgroundUrl": "https://images.nf.domains/banner/1af7803b-d06e-4b04-82d0-b1fa505a3f85",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-100.445882, 39.7837304]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "trumpcoin.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-04-07T14:55:44Z",
+        "iconUrl": "https://ipfs.algonode.xyz/ipfs/bafkreihkcsq62cn7lw4jasucz4zdf3i7r3lelqyp5rhhs42v5qiy3m3df4",
+        "iconVerified": true,
+        "backgroundUrl": "https://images.nf.domains/banner/84470f99-eea8-427a-9c8d-5f5666ef4aa8",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-100.445882, 39.7837304]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "tmackpoker.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-02-29T23:23:17Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/7c6cb2b4-e9be-401a-a831-6c72cd36f4a4",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.6824346, 43.6211955]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "maximusuno.orange.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-12-28T12:42:11Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0287754, 10.6228284]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "marven5002.suspects.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-12-30T16:32:09Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.8969928, 7.3786064]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "kieltech.orange.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-12-28T10:13:07Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.3941795, 6.4550575]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ysquareunlimited.orange.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-12-28T13:33:11Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.4978307, 7.5484047]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "prometheus.orange.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-02-05T13:30:33Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.3941795, 6.4550575]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "vcsoftware.barb.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-12-27T00:02:05Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.6200284, 33.5945144]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "morilzy.barb.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-12-26T21:17:10Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.9999721, 9.6000359]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "misty.barb.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2025-01-04T05:24:01Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.9999721, 9.6000359]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "giacryp.barb.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-09-18T13:53:13Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.991639, -28.8166236]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "faavour4712.barb.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-12-27T03:24:08Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.8969928, 7.3786064]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "c.barb.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-12-26T02:35:09Z",
+        "iconUrl": "https://images.nf.domains/avatar/2a95378a-f8e0-42fd-923a-d705359fe328",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/72cea832-d675-4e10-9fab-1b212116d88b",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.8902853, -2.4833826]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "web3ghost.barb.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-07-30T23:59:10Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.9249653, 38.9597594]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "maradenzksync.barb.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-01-20T18:52:50Z",
+        "iconUrl": "https://images.nf.domains/avatar/839daf48-1059-4696-9262-649290c7679b",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/3739de8c-042b-496c-8aec-7186de3339b7",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.3941795, 6.4550575]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "captainfantastic.barb.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-12-25T13:39:33Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.9999721, 9.6000359]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "love.barb.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-12-25T16:12:14Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.9999721, 9.6000359]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "xertificate.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-11-02T17:28:01Z",
+        "iconUrl": "https://images.nf.domains/avatar/792e66f8-c855-495d-93e1-bf03801532d8",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/afc3150e-c6c9-47a5-af0f-67bc67eea87d",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.857807, 11.5730391]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "educationblks.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-11-05T14:09:54Z",
+        "iconUrl": "https://images.nf.domains/avatar/d81995af-6253-44a0-a090-b0eea35a730d",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/bd953cba-8183-4deb-a55c-3ea2ae272028",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.1353519, 39.6621648]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "nodely.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-02-09T20:45:40Z",
+        "iconUrl": "https://images.nf.domains/avatar/09e506ba-b8fb-4178-af7d-3c77d10306d4",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.134422, 52.215933]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "satoshi.frogang.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-12-24T05:34:15Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.9999721, 9.6000359]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "steveseguin.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-06-04T21:43:29Z",
+        "iconUrl": "https://images.nf.domains/avatar/1e35b230-a9cd-455d-89f8-be2c1f57a862",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/5255e8a2-e061-427b-bdfe-ed9a419959fa",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.3839347, 43.6534817]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "mercurystriker.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-03-10T15:19:01Z",
+        "iconUrl": "https://images.nf.domains/avatar/19518c99-2644-4fae-ba8d-1b9f7eb8503b",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/5b4fd3a8-df1d-47ae-a356-f38517aae12f",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.5592485, 55.702215]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "nftcreators.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-04-17T23:06:21Z",
+        "iconUrl": "https://images.nf.domains/avatar/30fefcab-17e6-456a-bd0f-5a9419cc146c",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/597d14d9-4a20-4552-9237-0746bc8824ac",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.9794599, 52.865196]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "iterativeinfinity.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-05-24T16:51:29Z",
+        "iconUrl": "https://images.nf.domains/avatar/d2f67ddf-cb63-461c-befb-6ce2b96035ab",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-100.445882, 39.7837304]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "urunsmith.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-12-23T04:07:34Z",
+        "iconUrl": "https://images.nf.domains/avatar/1f3707a9-127f-400f-b4d7-63973cece58a",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/5869bc21-241b-4c46-b8b0-121957d673e0",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-100.445882, 39.7837304]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "krumpverse.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-02-13T06:27:02Z",
+        "iconUrl": "https://images.nf.domains/avatar/5f214561-d8c4-4ce6-82bf-3f3221e8d257",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/c6b47e6b-d86f-4719-8fc2-bbecbe42d729",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.14405508452768728, 51.4893335]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "abba4ril.sk8.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-10-18T21:24:40Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.5303654, 11.9918671]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "greg.thompson.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-01-05T17:09:10Z",
+        "iconUrl": "https://images.nf.domains/avatar/4b2828dc-33a8-4448-9eae-9e3753f9f646",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/003b611c-7d34-4305-a84a-22ed863926c7",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.7436995, 30.2711286]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "gamerheroine.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-09-21T00:45:07Z",
+        "iconUrl": "https://images.nf.domains/avatar/88a04ad4-e688-4aeb-b1c3-623cc9a97f91",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/bb8ea143-6937-4275-8eb1-3377914868b7",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.2394179, 36.5748441]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "mutantmangos.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-02-06T01:11:56Z",
+        "iconUrl": "https://ipfs.algonode.xyz/ipfs/bafybeiatqawpgu47akuwgatjdisyihahoamcrvgfun37luwycbmgxsd4ey/1334.jpg",
+        "iconVerified": true,
+        "backgroundUrl": "https://ipfs.algonode.xyz/ipfs/bafkreign3l3t6u374yegr2nkou2eky3tnsa4ep3vc7dxflvnn7ezbyzg5i",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-81.4639835, 27.7567667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "devstats.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-04-04T15:30:19Z",
+        "iconUrl": "https://images.nf.domains/avatar/61fcee0b-fb12-45d8-8506-f49c597ddd81",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/9caf4cd8-750f-402f-80e5-8e89974b05a8",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8194992, 1.357107]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "trackgood.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2022-09-12T21:05:11Z",
+        "iconUrl": "https://images.nf.domains/avatar/1de192b9-3df5-4c7c-a368-bf684a0d87e4",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/96b8c7d7-8911-4656-a165-43fa683f8335",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [174.7772114, -41.2887953]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "bullishnft.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-07-28T08:35:50Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "https://ipfs.algonode.xyz/ipfs/bafkreie7vdkicicgvzpq5rm5s26js5vrb4pn4qjj36uz6r3366stlwqt7e",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.7578122, 11.5024338]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ak47fanatic.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-03-24T23:47:14Z",
+        "iconUrl": "https://images.nf.domains/avatar/9473a89a-1485-4821-8f4e-690789a63955",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/b0c4dbf1-8cb9-424a-8116-5d61e3a24d3c",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.5456116, 31.2638905]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "tylersowards.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2022-08-21T17:16:33Z",
+        "iconUrl": "https://images.nf.domains/avatar/c8443c00-cd73-4b2f-8b0d-4f46bd1fa48c",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.5456116, 31.2638905]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "adri.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-12-19T09:31:34Z",
+        "iconUrl": "https://ipfs.algonode.xyz/ipfs/QmYzsfJGgkp8baa7TjTFURbEkFD9L6qGwMhWQXUAVQVkfx",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/4c04dee3-a5d3-451e-a02f-54690a45f923",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.2082848, -33.8698439]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "taxationistheft.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2022-08-14T02:19:08Z",
+        "iconUrl": "https://images.nf.domains/avatar/e4ac2265-8e2a-4164-9706-31445d775300",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/cb1fa59f-fbdc-4c65-bf2f-4ddc7e2b0c9b",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.5456116, 31.2638905]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "becomeungovernable.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-04-01T04:16:41Z",
+        "iconUrl": "https://images.nf.domains/avatar/2b61f3d9-aa4b-4e62-b865-ae6d23b3b766",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/06a47110-6d30-4e9b-aa57-35e65ef214dd",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.5456116, 31.2638905]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "antigovernment.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-04-01T23:09:50Z",
+        "iconUrl": "https://ipfs.algonode.xyz/ipfs/QmeBCH2XQNNHbDjzVT2Twube1LXxZWiUwNvrQpP4KnJF6q",
+        "iconVerified": true,
+        "backgroundUrl": "https://images.nf.domains/banner/ea7a90df-f27b-4b90-b613-f5ec5e497437",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.5456116, 31.2638905]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "jeffreyrideout.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2022-08-06T20:23:02Z",
+        "iconUrl": "https://ipfs.algonode.xyz/ipfs/bafybeify4w7b5wqcbl5kzi7p5x46cydl5xnucjlwwpx3hhb7kxtiwv7hte",
+        "iconVerified": true,
+        "backgroundUrl": "https://ipfs.algonode.xyz/ipfs/bafybeid4yfqmvu2m66qlzcdtvhzkoeyi6sd7iyssdkz3qrztadymucctdu",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-81.4639835, 27.7567667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "kitty.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-01-03T20:48:01Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-100.445882, 39.7837304]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "avectats.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2022-09-20T18:19:54Z",
+        "iconUrl": "https://images.nf.domains/avatar/44b68746-5e05-4bea-aa8e-69eba3564cc8",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/b0629f3d-11ed-47d7-987c-c57c1897f106",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.5132836, 14.6416142]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "allseeingskye.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-11-16T18:44:54Z",
+        "iconUrl": "https://images.nf.domains/avatar/460f3f65-8b1e-4480-bba6-861e938850d6",
+        "iconVerified": false,
+        "backgroundUrl": "https://ipfs.algonode.xyz/ipfs/bafybeicvzvu7nxb7ycmyrhwd22n6o4dltozcpegf7k3tizgapu2xktgm4i",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-100.445882, 39.7837304]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "kramer.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-04-27T11:25:08Z",
+        "iconUrl": "https://ipfs.algonode.xyz/ipfs/bafybeibuwb7y4w3uxum3jxygbkknhj7mfqtonl5jt634y3pd67xhtdzsj4#arc3",
+        "iconVerified": true,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.755, -24.7761086]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "appalgostake.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-06-09T05:27:58Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/3561b340-d951-481f-b848-d364b821276c",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-100.445882, 39.7837304]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "sharding.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2022-07-30T10:46:35Z",
+        "iconUrl": "https://images.nf.domains/avatar/7564b57f-8e36-4b2c-b1bf-d1ee5368e77a",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/3cf06516-3def-457e-aac4-af4659d57c31",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.9794599, 52.865196]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "unitednations.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2022-07-29T20:26:21Z",
+        "iconUrl": "https://images.nf.domains/avatar/3e8a0079-e12d-4f8b-b084-4431afb0dc0e",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/205ac7f7-e78e-4b01-870c-54627ce4b642",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.9794599, 52.865196]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "daddydila.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2022-10-10T14:42:35Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/079ad2a8-65da-491b-a5cc-54659a7e1f95",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.6244212, 41.8755616]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "addvalue.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2022-07-13T14:51:32Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.985737689444763, 45.442497700000004]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "phear.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-11-19T00:38:48Z",
+        "iconUrl": "https://images.nf.domains/avatar/a1481ef6-ee4a-4971-99e9-32a8bdef001f",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/878fcfdc-61b0-4caa-9e80-350080838969",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.9382069, 39.5162401]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "nftseller.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2022-08-06T13:50:41Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7011391, 10.7763897]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "amphlux.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-02-02T00:08:18Z",
+        "iconUrl": "https://ipfs.algonode.xyz/ipfs/QmP4HzBurme3uovKun5DuLS1jAgUcy1Fxzfv5xHBH6rJRz",
+        "iconVerified": true,
+        "backgroundUrl": "https://images.nf.domains/banner/b94ac823-22e9-4537-a957-41ec4e888de9",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-94.5781416, 39.100105]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "gold9999market.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2022-06-17T04:26:16Z",
+        "iconUrl": "https://images.nf.domains/avatar/a585e72f-31ed-459e-be37-9ca3d6ec5c31",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.1898675, 12.2431693]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "deliveryhero.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-06-15T00:02:56Z",
+        "iconUrl": "https://images.nf.domains/avatar/c39cf30e-6be9-4f9b-8695-83a21ace5bc5",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.7578122, 11.5024338]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "bitsoko.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2022-10-08T09:57:32Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/101a93b3-63c2-4648-90e1-1c02282b9e9d",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.7578122, 11.5024338]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "lux22gott.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-03-06T19:56:51Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "https://ipfs.algonode.xyz/ipfs/bafybeid6uz2g6jm4yzjzsaanno2chobe4jleujcvw4zsifjla47r6rbxyy",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.5456116, 31.2638905]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "itsamonk.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2022-06-16T14:06:35Z",
+        "iconUrl": "https://images.nf.domains/avatar/8319cffa-5b39-43e6-960d-2bb1f01fc25e",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/0eb43fb3-1468-4dc7-800c-cea60809d56e",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.50255852895232, 33.88922645]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "pfajarputra.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2022-06-07T22:27:17Z",
+        "iconUrl": "https://images.nf.domains/avatar/4f2e2d32-1438-4fe9-9f02-893aeff57529",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/09239f45-f58d-44c8-8136-607bbf83dadc",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.8902853, -2.4833826]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "kcpteratato.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-09-05T22:26:59Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/f0a7ae88-d284-422d-a86b-d9275529842c",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.1583502, 39.7683331]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "cryptosmart.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2022-06-05T21:29:49Z",
+        "iconUrl": "https://images.nf.domains/avatar/72229b2d-dabc-45ff-9132-855d1931a21c",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/65ce5d71-6887-485f-ab2b-dad308a7d5da",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.0188527, 4.7676576]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "0000000000.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-09-22T03:33:07Z",
+        "iconUrl": "https://ipfs.algonode.xyz/ipfs/QmPaD7TmAaKWKvMBC5zU5pUwENQANXAcFezLxRkf7Pp6j8",
+        "iconVerified": true,
+        "backgroundUrl": "https://images.nf.domains/banner/67c49e5b-c079-42ea-8322-f432c161b3d0",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.999955, 35.0000663]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "alammex.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-10-30T20:14:11Z",
+        "iconUrl": "https://images.nf.domains/avatar/a67176e7-9203-423a-8406-ef7eb5d31884",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/24a70818-d8be-40e5-bec8-beed558546ef",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.702667, 34.4221319]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "johnpgeary.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-01-04T01:28:36Z",
+        "iconUrl": "https://ipfs.algonode.xyz/ipfs/QmXHNkHZRvvxZ7Ho2qBrhMLqYpvAejTpJVyFStXckqFuWP",
+        "iconVerified": true,
+        "backgroundUrl": "https://ipfs.algonode.xyz/ipfs/bafybeifgpwqxexxljrkjrll7mhojxo7h5xi7p55ozq7cuzgqlxwidnxg2i",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.09942966988302, 40.85149705]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "jackcrypto.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-12-05T15:44:15Z",
+        "iconUrl": "https://ipfs.algonode.xyz/ipfs/bafkreigzhrndgeexz7h4j5kgy5m44unow2qxhczddpcklbtpgnpd5xpt44",
+        "iconVerified": true,
+        "backgroundUrl": "https://ipfs.algonode.xyz/ipfs/bafybeifgpwqxexxljrkjrll7mhojxo7h5xi7p55ozq7cuzgqlxwidnxg2i",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.09942966988302, 40.85149705]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "algorandjapandiscord.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-09-16T14:12:28Z",
+        "iconUrl": "https://ipfs.algonode.xyz/ipfs/bafybeichklezmnc6z3zi6nywbzmtvkgjuqxv3rwcymj2n2edrdwubcwu4m",
+        "iconVerified": true,
+        "backgroundUrl": "https://ipfs.algonode.xyz/ipfs/QmfD5wjr32WhTEfR5zAV1aDpScuwYAdTe7ECXntVK4WqvV",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.2394179, 36.5748441]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "colexnfts.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2022-06-05T09:00:34Z",
+        "iconUrl": "https://ipfs.algonode.xyz/ipfs/bafybeiepdrrzpjhpdardut4jtd3q75lpsrhunhawn6mg7mqjwklxloylza",
+        "iconVerified": true,
+        "backgroundUrl": "https://ipfs.algonode.xyz/ipfs/bafybeihwvzlaq7aku7nb2y2d7tadffidyvyl5pdmbfzdp6wzj5wpszpsxu",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.541246849406163, 52.24764975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "urtho.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2024-11-18T19:49:34Z",
+        "iconUrl": "https://images.nf.domains/avatar/15cd547f-10ac-46bb-bc63-67ec89b6e18e",
+        "iconVerified": false,
+        "backgroundUrl": "https://images.nf.domains/banner/eb82cab3-7069-40f1-aaff-6a79b8833743",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.134422, 52.215933]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "jenkin.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-07-25T08:36:29Z",
+        "iconUrl": "https://images.nf.domains/avatar/ff3c2cdc-d6c8-4bf3-8c42-bd8ab866fae2",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.8734455, 45.4077172]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "shep.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2022-10-17T15:59:05Z",
+        "iconUrl": "/nfd.png",
+        "iconVerified": false,
+        "backgroundUrl": "https://ipfs.algonode.xyz/ipfs/QmPNipA4CMRtvTtspUXTQ886oFEgTRyE9NVdwRFrHZE5dv",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.7436995, 30.2711286]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "france.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2025-01-21T23:23:26Z",
+        "iconUrl": "https://images.nf.domains/avatar/b0c5a250-c356-4ce5-a9c0-939f7108063d",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.8883335, 46.603354]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "truyou.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2023-07-25T12:46:51Z",
+        "iconUrl": "https://images.nf.domains/avatar/c7e2f832-18be-4b6f-b59d-4df55a3ab8a1",
+        "iconVerified": false,
+        "backgroundUrl": "/nfd.png",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-111.763275, 34.395342]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "gabe.algo",
+        "marker-color": "#ff602e",
+        "timeChanged": "2025-01-16T05:32:32Z",
+        "iconUrl": "https://ipfs.algonode.xyz/ipfs/QmfEZK3nVHJGDQqjG8wEjrNMghQFdXygW8u7yyu2eVgtRu",
+        "iconVerified": false,
+        "backgroundUrl": "https://ipfs.algonode.xyz/ipfs/bafybeiag7yek2wu3ahuzewygi2gaxj22mn3zcyaccxlgplg2lfsus6222q",
+        "backgroundVerified": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.270545, 40.0149856]
+      }
+    }
+  ]
+}

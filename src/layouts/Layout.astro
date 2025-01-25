@@ -1,0 +1,100 @@
+---
+import { ClientRouter } from "astro:transitions";
+import "../styles/global.css";
+import { SITE_TITLE, SITE_DESCRIPTION, ENABLE_BLOG } from "../consts";
+import { Navigation } from "../components/Navigation";
+import { ModeToggle } from "../components/ModeToggle";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={SITE_DESCRIPTION} />
+    <ClientRouter />
+    <title>{SITE_TITLE}</title>
+    <style>
+      #xeyes-border {
+        background-size: 300%; /* Overstretch gradient for smooth animation */
+        transition: background-position 0.1s ease-out; /* Smooth movement */
+      }
+    </style>
+  </head>
+  <body class="w-full h-svh flex flex-col max-h-svh">
+    {ENABLE_BLOG && <Navigation client:load />}
+    {!ENABLE_BLOG && <div class="m-1" />}
+    <main class="relative flex justify-center items-center flex-1 mx-2">
+      <div
+        id="xeyes-wrapper"
+        class="flex-1 h-full rounded-3xl overflow-hidden bg-transparent p-1 flex"
+      >
+        <div
+          id="xeyes-border"
+          class="absolute inset-0 bg-gradient-to-br from-yellow-200 via-red-500 to-orange-400 rounded-3xl -z-10"
+        >
+        </div>
+        <div
+          class="rounded-3xl flex items-center justify-center shadow-md flex-1"
+        >
+          <slot />
+        </div>
+      </div>
+    </main>
+    <footer class="px-4">
+      &copy Awesome Algorand 2025 | <a
+        href="https://github.com/awesome-algorand/tacticalgo"
+        target="_blank"
+        rel="noopener noreferrer">Github</a
+      >
+      {!ENABLE_BLOG && <ModeToggle client:load />}
+    </footer>
+  </body>
+</html>
+<script is:inline>
+  // Theme switcher
+  const getThemePreference = () => {
+    if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
+      return localStorage.getItem("theme");
+    }
+    return window.matchMedia("(prefers-color-scheme: dark)").matches
+      ? "dark"
+      : "light";
+  };
+  function setDarkMode(document) {
+    const isDark = getThemePreference() === "dark";
+    document.documentElement.classList[isDark ? "add" : "remove"]("dark");
+
+    if (typeof localStorage !== "undefined") {
+      const observer = new MutationObserver(() => {
+        const isDark = document.documentElement.classList.contains("dark");
+        localStorage.setItem("theme", isDark ? "dark" : "light");
+      });
+      observer.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ["class"],
+      });
+    }
+  }
+  // Handle mouse movements
+  window.onload = function () {
+    const gradientBorder = document.getElementById("xeyes-border");
+    document.addEventListener("mousemove", (event) => {
+      const { clientX, clientY } = event;
+
+      // Normalize coordinates to percentages
+      const xOffset = (clientX / window.innerWidth) * 100;
+      const yOffset = (clientY / window.innerHeight) * 100;
+
+      // Apply the dynamic position to the gradient
+      gradientBorder.style.backgroundPosition = `${xOffset}% ${yOffset}%`;
+    });
+  };
+  setDarkMode(document);
+  document.addEventListener("astro:before-swap", (event) => {
+    // Pass the incoming document to set the theme on it
+    setDarkMode(event.newDocument);
+  });
+</script>

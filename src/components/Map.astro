@@ -1,0 +1,100 @@
+---
+export interface Props {
+  class: string;
+  zoom: number;
+  minZoom: number;
+  /** the DOM ID of a <div> element */
+  container: string;
+  theme?: "light" | "dark";
+}
+
+const { minZoom, zoom, container, theme, class: className } = Astro.props;
+---
+
+<leaflet-map
+  data-zoom={zoom}
+  data-min-zoom={minZoom}
+  data-container={container}
+  data-theme={theme}
+  class:list={["leaflet-map", className]}
+>
+  <div
+    id={container}
+    class:list={[
+      "!bg-gradient-to-br from-neutral-800 to-neutral-900 z-0",
+      className,
+    ]}
+  >
+  </div>
+  <script>
+    import "leaflet/dist/leaflet";
+    import "leaflet/dist/leaflet.css";
+    import "leaflet.markercluster/dist/leaflet.markercluster";
+    import * as turf from "@turf/turf";
+
+    const geoJson = turf.featureCollection([...window.__GEO_JSON__.features]);
+
+    class LeafletMap extends HTMLElement {
+      constructor() {
+        super();
+        const zoom = Number(this.dataset.zoom);
+
+        const medianCenter = turf.center(geoJson);
+
+        if (typeof this.dataset.container === "undefined") {
+          throw new TypeError("must have valid dataset container");
+        }
+        if (typeof this.dataset.theme === "undefined") {
+          this.dataset.theme = "light";
+        }
+
+        const map = L.map(this.dataset.container, {
+          maxZoom: 18,
+          minZoom: Number(this.dataset.minZoom),
+        });
+        map.setView(
+          [
+            medianCenter.geometry.coordinates[1],
+            medianCenter.geometry.coordinates[0],
+          ],
+          zoom,
+        );
+        L.tileLayer(
+          `https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png`,
+          {
+            attribution: `&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors`,
+          },
+        ).addTo(map);
+
+        const lGeoJson = L.geoJson(geoJson, {
+          pointToLayer: function (feature, latlng) {
+            const icon = L.divIcon({
+              className: "rounded-3xl h-10 w-10",
+              html: `<a data-astro-reload href="/u/${feature.properties.name}"><img class="relative h-12 w-12 rounded-3xl" src="${feature?.properties?.iconUrl || "/nfd.png"}"/></a>`,
+            });
+            return L.marker(latlng, { icon: icon });
+          },
+        });
+        var markers = L.markerClusterGroup({
+          iconCreateFunction: function (cluster) {
+            return L.divIcon({
+              className: "bg-transparent",
+              html: `<div class="relative bg-transparent h-12 w-12 ">
+                    <img class="h-12 w-12 rounded-3xl" src="/placeholder.webp"/>
+                    <p class="absolute text-lg p-2 rounded-3xl left-[50%] -translate-x-1/2  top-[50%] -translate-y-1/2 bg-background">${cluster.getChildCount()}</p>
+                    </div>`,
+            });
+          },
+        });
+        markers.addLayer(lGeoJson);
+        console.log(geoJson);
+        markers.addTo(map);
+
+        // lGeoJson.addTo(map)
+        map.setMaxBounds(lGeoJson.getBounds().pad(0.05));
+      }
+    }
+
+    window.customElements.define("leaflet-map", LeafletMap);
+  </script>
+</leaflet-map>

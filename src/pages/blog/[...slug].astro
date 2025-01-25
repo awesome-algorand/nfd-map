@@ -1,0 +1,26 @@
+---
+import { type CollectionEntry, getCollection, render } from "astro:content";
+
+import Layout from "@/layouts/Layout.astro";
+import { ENABLE_BLOG } from "@/consts";
+
+// Disable Blog with flag
+if (!ENABLE_BLOG) {
+  return Astro.redirect("/404");
+}
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog");
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: post,
+  }));
+}
+type Props = CollectionEntry<"blog">;
+const post = Astro.props;
+const { Content } = await render(post);
+---
+
+<Layout {...post.data}>
+  <Content />
+</Layout>

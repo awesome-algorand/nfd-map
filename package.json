@@ -1,0 +1,53 @@
+{
+  "name": "map.awesomealgo.com",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "npm run generate && astro build && wrangler dev",
+    "astro": "astro",
+    "deploy": "npm run generate && astro build && wrangler deploy",
+    "cf-typegen": "wrangler types",
+    "generate": "npx @hey-api/openapi-ts -c @hey-api/client-fetch -i https://api.nf.domains/info/openapi3.yaml -o ./src/lib/nfd/client"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^12.2.1",
+    "@astrojs/mdx": "^4.0.7",
+    "@astrojs/react": "^4.1.6",
+    "@astrojs/rss": "^4.0.11",
+    "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/tailwind": "^5.1.5",
+    "@hey-api/client-fetch": "^0.7.1",
+    "@radix-ui/react-avatar": "^1.1.2",
+    "@radix-ui/react-dropdown-menu": "^2.1.5",
+    "@radix-ui/react-navigation-menu": "^1.2.4",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@turf/turf": "^7.2.0",
+    "@types/geojson": "^7946.0.16",
+    "@types/leaflet": "^1.9.16",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "algosdk": "^2.10.0",
+    "astro": "^5.1.9",
+    "async-mutex": "^0.5.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3",
+    "lucide-react": "^0.474.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss": "^3.4.17",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250124.3",
+    "@hey-api/openapi-ts": "^0.62.3",
+    "@types/leaflet.markercluster": "^1.5.5",
+    "prettier": "^3.4.2",
+    "prettier-plugin-astro": "^0.14.1",
+    "wrangler": "^3.105.1"
+  }
+}

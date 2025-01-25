@@ -1,0 +1,17 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Map from "@/components/Map.astro";
+import geoJson from "@/db/geo.json";
+---
+
+<Layout>
+  <Map
+    class="h-full w-full rounded-3xl"
+    container="farm-view"
+    zoom={2.5}
+    minZoom={0}
+  />
+</Layout>
+<script define:vars={{ geoJson }}>
+  window.__GEO_JSON__ = geoJson;
+</script>
