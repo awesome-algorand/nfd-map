@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "npm run generate && astro build && wrangler dev",
+    "preview": "npm run generate && astro build && wrangler pages dev",
     "astro": "astro",
-    "deploy": "npm run generate && astro build && wrangler deploy",
+    "deploy": "npm run generate && astro build && wrangler pages deploy",
     "cf-typegen": "wrangler types",
     "generate": "npx @hey-api/openapi-ts -c @hey-api/client-fetch -i https://api.nf.domains/info/openapi3.yaml -o ./src/lib/nfd/client"
   },
